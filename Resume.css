@@ -1,0 +1,134 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-image: url(Images/architec2.jpg);
+	background-size:cover
+	}
+
+#nav {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	height: 35px;
+	text-align:right;
+	border-radius:8px;
+	text-shadow:#000000;
+	position:fixed;
+	right: 0;
+	top:0;
+	z-index:100;
+	}
+	#nav ul {
+		height:auto;
+		padding:10px;
+		margin:auto;
+	}
+	#nav li {
+		display:inline-block;
+		padding:20px;
+	}
+	#nav a {
+		text-decoration:none;
+		color: #939393;
+		padding:8px 8px 8px 8px;
+	}
+	#nav a:hover {
+		color:#FFFFFF;
+	}
+.image {
+	position: relative;
+	width: 100%;
+}
+	
+.image1 {
+	align-content:center;
+	position:fixed;
+}
+p {
+	font-size:16px;
+	margin-left: 35px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+.p_1 {
+	font-size:16px;
+	margin-left: 215px;
+	margin-right: 15px;
+	margin-top: 115px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+section {
+	overflow: auto;
+	width: 100%;
+}
+header {
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 100%;
+}
+h2 span {
+	color: #A2A2A2;
+	font: bold 45px/65px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 15, 0.6);
+	padding: 0px;
+}
+h2 span.spacer {
+	padding:0 0px;
+}
+h3 {
+	color: #000000;
+	font-size: 20px;
+	margin-left: 15px;
+}
+h5 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-size:22px;
+	color:#A2A2A2
+}
+#thumbs {
+	width: 1200px;
+	height: auto;
+	margin-top: 55px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+	line-height: 35px;
+}
+#thumbs a {
+	vertical-align: top;
+	display: inline-block;
+	display: inline;
+	zoom: 1;
+}
+.stretch {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+#resume {
+	width: 1300px;
+	height: 1100px;
+	position: fixed;
+	top: 100px;
+	left: 300px;
+	align:center;
+	z-index: 99;
+}
